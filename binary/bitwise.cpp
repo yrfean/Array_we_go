@@ -8,6 +8,11 @@ void fun(int n){
     }else{
         cout << "false";
     }
+    int arr[3] = {1,2,3};
+    // for(int i =1;i<=3;i++){
+    //     cout << arr[i]^arr;
+    // }
+    // cout << arr.size();
 }
 
 int main() {

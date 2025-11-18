@@ -1,7 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
 int reverseArray(int arr[],int size){
     int start = 0;
     int end = size-1;
@@ -18,6 +17,7 @@ int main() {
 
     int arr[]= {4,55,7,9,4};
 
-     reverseArray(arr,5);
+    reverseArray(arr,5);
+
     return 0;
 }
