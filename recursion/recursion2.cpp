@@ -3,7 +3,6 @@ using namespace std;
 
 int sum(int i,int n){
     if(i<0)return n;
-    int res=n;
     return sum(i-1,n+i);
 }
 
